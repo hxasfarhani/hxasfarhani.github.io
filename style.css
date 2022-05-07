@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/*style*/
+
+body{
+	background-color: silver;
+	font:18px 16px arial,sans-serif;
+	background-image: url(img/tehyung.png);
+	background-position: 0 -100px;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: white;
+}
+
+.header{
+	padding: 10px;
+}
+
+.header .judul{
+	font-size: 40px;
+	font-style: bold;
+}
+
+
+.header ul li{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 8px;
+
+}
+
+.header a{
+	text-decoration: none;
+	color: purple;
+}
+
+.header a:hover{
+	background-color: blue;
+	color: orange;
+}
+
+.hero{
+	height: 300px;
+	background-image: url(img/foto.png);
+	margin: auto;
+	background-position: 0 -150px;
+
+}
+
+.konten{
+	padding: 20px;
+}
+
+.konten h2{
+	font-size: 28px;
+	font-style: bold;
+}
+
+.konten p{
+	font-size: 11px;
+}
+
+.konten a{
+	text-decoration: none;
+}
+
+.konten a:hover{
+	background-color: blue;
+	color: orange;
+}
+
+
+.konten p{
+	margin-bottom: 20px;
+	word-spacing: 2px;
+
+	font-size: 14px;
+}
+
+
+.footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	height:40px;
+	font-size: 18px;
+	font-style: bold;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
