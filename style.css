@@ -56,12 +56,12 @@ table {
 body{
 	background-color: silver;
 	font:18px 16px arial,sans-serif;
-	background-image: url(img/tehyung.png);
+	background-image: url(img/bekgron.png);
 	background-position: 0 -100px;
 }
 
 .container{
-	width: 800px;
+	width: 960px;
 	margin: auto;
 	background-color: white;
 }
@@ -101,35 +101,71 @@ body{
 
 }
 
-.konten{
-	padding: 20px;
+.main{
+	width: 600px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
 }
 
-.konten h2{
+.main h2{
 	font-size: 28px;
 	font-style: bold;
 }
 
-.konten p{
+.main p{
 	font-size: 11px;
 }
 
-.konten a{
+.main a{
 	text-decoration: none;
 }
 
-.konten a:hover{
+.main a:hover{
 	background-color: blue;
 	color: orange;
 }
 
 
-.konten p{
+.main p{
 	margin-bottom: 20px;
 	word-spacing: 2px;
 
 	font-size: 14px;
 }
+
+
+.sidebar{
+	width: 300px;
+	float: right;
+	padding: 10px;
+}
+
+.sidebar h3{
+	font-style: bold;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.sidebar img{
+	float: left;
+	padding-right: 8px;
+}
+
+.sidebar p{
+	word-spacing: 5px;
+	font-size: 13px;
+}
+
+.sidebar .satu img{
+	width: 80px
+}
+
+.sidebar .satu p{
+	font-size: 13px;
+	word-spacing: 5px;
+}
+
 
 
 .footer{
@@ -142,8 +178,21 @@ body{
 	padding-top: 20px;
 }
 
+/* clearfix */
 
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
 
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
 
 
 
