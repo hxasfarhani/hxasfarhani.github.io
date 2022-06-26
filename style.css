@@ -62,8 +62,22 @@ body{
 
 .container{
 	width: 960px;
-	margin: auto;
+	margin: 80px auto;
 	background-color: white;
+	position: relative;
+}
+
+.instagram{
+	width: 200px;
+	height: 200px;
+	background-image: url(img/instagram.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	background-size: 80px;
+	right: -120px;
+
 }
 
 .header{
